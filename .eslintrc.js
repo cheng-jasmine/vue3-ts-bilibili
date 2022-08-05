@@ -13,6 +13,8 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'quotes': 'off',  // 单双引号问题
+    "space-before-function-paren": 0 // 函数名称或function关键字与开始参数之间缺少空格
   }
 }
